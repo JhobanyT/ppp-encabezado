@@ -25,7 +25,32 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./assets/vendors/jquery/dist/jquery.min.js",
+              "./assets/vendors/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "./assets/vendors/fastclick/lib/fastclick.js",
+              "./assets/vendors/nprogress/nprogress.js",
+              "./assets/vendors/Chart.js/dist/Chart.min.js",
+              "./assets/vendors/gauge.js/dist/gauge.min.js",
+              "./assets/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js",
+              "./assets/vendors/iCheck/icheck.min.js",
+              "./assets/vendors/skycons/skycons.js",
+              "./assets/vendors/Flot/jquery.flot.js",
+              "./assets/vendors/Flot/jquery.flot.pie.js",
+              "./assets/vendors/Flot/jquery.flot.time.js",
+              "./assets/vendors/Flot/jquery.flot.stack.js",
+              "./assets/vendors/Flot/jquery.flot.resize.js",
+              "./assets/vendors/flot.orderbars/js/jquery.flot.orderBars.js",
+              "./assets/vendors/flot-spline/js/jquery.flot.spline.min.js",
+              "./assets/vendors/flot.curvedlines/curvedLines.js",
+              "./assets/vendors/DateJS/build/date.js",
+              "./assets/vendors/jqvmap/dist/jquery.vmap.js",
+              "./assets/vendors/jqvmap/dist/maps/jquery.vmap.world.js",
+              "./assets/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js",
+              "./assets/vendors/moment/min/moment.min.js",
+              "./assets/vendors/bootstrap-daterangepicker/daterangepicker.js",
+              "./assets/js/custom.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +122,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "61284325-c2c3-4e5c-908b-e60299890374"
   }
 }
